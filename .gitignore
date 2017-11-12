@@ -1,2 +1,7 @@
-public
 node_modules
+frontend
+.jshintrc
+.gitignore
+gulpfile.js
+package.json
+package-lock.json
