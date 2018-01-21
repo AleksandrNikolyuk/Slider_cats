@@ -19,8 +19,31 @@
 <body>
   <div id="target"></div>
 
-  <div id="window" class="window hide"></div>
-  <button type="button" class="showButton" id="button"> Показать окно </button>
+  <!-- <div id="window" class="window hide"></div>
+  <button type="button" class="showButton" id="button"> Показать окно </button> -->
+
+
+<script>
+
+    var target = document.getElementById( 'target');
+    console.log( target );
+
+    var block = document.createElement( 'div' );
+
+
+    block.className = 'Ctrl Shift Delete';
+
+
+    block.classList.add( 'Command' );
+
+
+    block.classList.remove('Delete');
+
+
+    block.classList.toggle('Command');
+    console.log( block );
+</script>
+
 
 
   <script src="js/main.min.js"></script>
